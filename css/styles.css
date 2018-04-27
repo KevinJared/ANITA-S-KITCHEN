@@ -12,6 +12,12 @@
   margin-left: 0px;
   margin-right: 0px;
 }
+.jumbotron2{
+  border-left: 2px
+  border-right: 4px
+  border-top: 6px
+  border-bottom: 8px
+}
 .container-fluid{
   margin-left: 10px;
   margin-right: 10px;
@@ -26,11 +32,33 @@
     margin-right: 0px;
 }
 .wells{
-  background-image: url("../image/assets/backgrounds/foodsBg.jpg");
-  border-left: 2px solid red;
-  border-right: 4px solid blue;
-  border-top: 6px solid orange;
-  border-bottom: 8px solid black;
-  height: 100%;
-  margin-bottom: auto;
+  background-image: url('../image/assets/backgrounds/foodsBg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  align-items: center;
+}
+.footer{
+  text-align: center;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #ffffff;
+}
+.search{
+    background-image:url('../image/assets/backgrounds/subscribe.jpg');
+    background-size: cover;
+    height: 500px;
+}
+.contact{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.review{
+  margin:auto;
+  padding: 2px;
+
 }
