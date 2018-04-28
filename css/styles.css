@@ -1,64 +1,10 @@
-.container{
-  width: auto;
-  object-fit: cover;
-  text-align: center;
-}
-.jumbotron{
+.big_wrapper{
+	width: 100%;
+	text-align:left;
   background-image: url("../image/assets/backgrounds/landing.jpg");
-  margin-bottom: auto;
+  text-align: center;
   background-repeat: no-repeat;
+  display: inline-block;
   background-size: cover;
-  height: auto;
-  margin-left: 0px;
-  margin-right: 0px;
-}
-.jumbotron2{
-  border-left: 2px
-  border-right: 4px
-  border-top: 6px
-  border-bottom: 8px
-}
-.container-fluid{
-  margin-left: 10px;
-  margin-right: 10px;
-}
-.row{
-    -webkit-column-gap: 0px;
-    -moz-column-gap: 0px;
-    column-gap: 0px;
-    width: 100%;
-    height: auto;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-.wells{
-  background-image: url('../image/assets/backgrounds/foodsBg.jpg');
-  background-size: cover;
-  background-position: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  align-items: center;
-}
-.footer{
-  text-align: center;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #ffffff;
-}
-.search{
-    background-image:url('../image/assets/backgrounds/subscribe.jpg');
-    background-size: cover;
-    height: 500px;
-}
-.contact{
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.review{
-  margin:auto;
-  padding: 2px;
-
-}
+  height: 70vh;
+ }
