@@ -1,22 +1,190 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/scripts.js"></script>
+    <script src="js/jQuery.js"></script>
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <title>Anita's Kitchen</title>
-  </head>
-  <body>
-    <div class="big_wrapper">
-      <img src="image/assets/logoBig.png" alt="">
-      <h1>We Provide The Best Food <br>At The <strong>Right Price</strong></br></h1>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Anita's kitchen</title>
+</head>
+<body>
+    <div class="jumbotron">
+            <div id="mySidenav" class="sidenav" style="text-align:center">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Clients</a>
+                    <a href="#">Contact</a>
+                </div>
+                <span style="font-size:30px;cursor:pointer; margin-left:30px; color:#ffffff" onclick="openNav()">&#9776;</span>
+                <script>
+                    function openNav() {
+                        document.getElementById("mySidenav").style.width = "100vw";
+                    }
+                    function closeNav() {
+                        document.getElementById("mySidenav").style.width = "0";
+                    }
+                </script>
+        <div class="text-center">
+            <img src="image/assets/logoBig.png" alt="">
+            <p>We provide the best food<br>The<strong>Right Price</strong></p>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="col-md-12">
+          <div class="col-md-3">
+              <p>HAPPY HOUR</p>
+              <p>PARTY HOUR</p>
+          </div>
+          <div class="col-md-3">
+              <img src="image/assets/foodtop/lunch.jpg" alt="">
+          </div>
+          <div class="col-md-3">
+              <img src="image/assets/foodtop/breakfast.jpg" alt="">
+          </div>
+          <div class="col-md-3">
+              <img src="image/assets/foodtop/dinner.jpg" alt="">
+          </div>
+        </div>
+    </div>
+    <div class="fast food" id="services">
+        <div class="container">
+            <div class="col-md-6 fast-left">
+                <img src="image/assets/fastFood1.jpg" class="img-responsive" alt="">
+                <img src="image/assets/fastFood2.jpg" alt="">
+            </div>
+            <div class="col-md-6 fast-right">
+                <h3>Fast Food</h3>
+                <h5>You'll love our delicious fastfood</h5>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                    dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+                    suscipit lobortis nisl ut aliquip ex ea commodo consequat. .</p>
+
+                <button type="button" class="button">VIEW GALLERY
+                    <img class="arrow" src="image/assets/arrowright.png" alt="">
+                </button>
+            </div>
+            <div class="clearfix"></div>
+            <div class="fast-foo">
+                <div class="col-md-6 fast-right1">
+                    <h3>Drinks</h3>
+                    <h5>We also produce delicious drinks</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                        laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                        ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                        dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla
+                        facilisis at vero eros et accumsan.</p>
+                    <button type="button" class="button">VIEW GALLERY
+                        <img class="arrow" src="image/assets/arrowright.png" alt="">
+                    </button>
+                </div>
+                <div class="col-md-6 fast-left1">
+                    <img src="image/assets/5.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="row">
+            <div class="col-sm-2">
+                <figure>
+                    <img src="image/assets/fastfood/chickenBurger.jpg" alt="">
+                    <figcaption class="foodtext">Chiken Burger</figcaption>
+                </figure>
+            </div>
+
+            <div class="col-sm-2">
+                <figure>
+                    <img src="image/assets/fastfood/beefBurger.jpg" alt="">
+                    <figcaption class="foodtext">Beef Burger</figcaption>
+                </figure>
+            </div>
+
+            <div class="col-sm-2">
+                <figure>
+                    <img src="image/assets/fastfood/chickenPizza.jpg" alt="">
+                    <figcaption class="foodtext">Chiken Pizza</figcaption>
+                </figure>
+            </div>
+        </div>
     </div>
     <div class="col-md-12">
-      <div class="col-md-3">
+        <div class="Customers">
+            <div class="col-md-7">
+                <h2>Our Happy Customers</h2>
+                <h4> George Richard</h4>
+                <p>Greate food! Menu is awesome, there food are not only great but<br> also in the right price. I'll highly recommend them:)</p>
 
-      </div>
+                <div id="social">
+                    <a href="#">
+                        <img src="image/assets/customers/p1.png" alt="Facebok">
+                    </a>
+                    <a href="#">
+                        <img src="image/assets/customers/p2.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="image/assets/customers/p3.png" alt="">
+                    </a>
+                </div>
 
+            </div>
+
+            <div class="col-md-5">
+                <h2 style="color:orangered">About Menu</h2>
+                <p>We are menu a little team of 7 mmembers.
+                    <br> Ut wisi enim veniam, quis nos
+                    <br>trudexer ce tation ullamcorper suscipit lob
+                    <br>ortis nisl ut aliquip ex ea commodo consectetur
+                    <br>Quat. Duisau tem vel eum iriure dolor in.
+                </p>
+            </div>
+        </div>
     </div>
 
-  </body>
+    <div class="col-md-12">
+        <div class="search" style="background-image:url('image/assets/backgrounds/subscribe.jpg')""; background-size:cover">
+            <div class="daily" id="contact-us">
+                <h3>Get our daily food items delivered to your mail</h3>
+                <div class="col-md-7 text-field-email">
+                    <form style="margin-right:25px">
+                        <input type="text" class="text" value="Your email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'your e-mail ';}">
+                    </form>
+                </div>
+                <div class="col-md-5 button1">
+                    <form>
+                        <input type="submit" value="subscribe">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="col-md-12">
+        <div class="footer" style="background-color: #FF5733">
+            <h1>
+                <img src="img/assets/footerlogos/logo_white.png" alt=""> MENU</h1>
+            <P>Thats What We Are</P>
+            <div id="social">
+                <a href="#">
+                    <img src="image/assets/footerlogos/facebook.png" alt="facebook">
+                </a>
+                <a href="#">
+                    <img src="image/assets/footerlogos/twitter.png" alt="twitter">
+                </a>
+                <a href="#">
+                    <img src="image/assets/footerlogos/pinterest.png" alt="pinterest">
+                </a>
+            </div>
+            <div class="footer">
+                <p>2018 Menu Restaurant</p>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>

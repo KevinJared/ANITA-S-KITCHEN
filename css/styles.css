@@ -1,10 +1,222 @@
-.big_wrapper{
-	width: 100%;
-	text-align:left;
-  background-image: url("../image/assets/backgrounds/landing.jpg");
-  text-align: center;
-  background-repeat: no-repeat;
-  display: inline-block;
-  background-size: cover;
-  height: 70vh;
- }
+.dinner img:hover{
+    background-color: #ffffff;
+}
+
+.daily{
+    background: url(../im/assets/backgrounds/subscribe.jpg) no-repeat center fixed;
+background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+-ms-background-size: cover;
+min-height:250px;
+padding:5em 0em 6em;
+}
+.daily h3 {
+font-size: 2.4em;
+color: #fff;
+font-family: 'aleolight';
+padding: 0em 0 1em 0;
+text-align: center;
+}
+.daily form input[type="text"] {
+padding: 0.5em 8em 0.5em 0em;
+margin-bottom: 2%;
+background: rgba(255, 255, 255, 0.2);
+color: #C8C8C8;
+font-size: 20px;
+font-family: 'aleolight';
+outline: none;
+text-indent: 18px;
+border: none;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-o-border-radius: 5px;
+-msborder-radius: 5px;
+}
+.daily form input[type="submit"] {
+background: #F25A29;
+color: #fff;
+padding: 0.5em 3em;
+font-size: 20px;
+font-family: 'aleolight';
+display: block;
+outline: none;
+border: none;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-o-border-radius: 3px;
+-msborder-radius: 3px;
+text-transform:uppercase;
+cursor:pointer;
+}
+.daily form input[type="submit"]:hover{
+background: #333333;
+}
+.text-field-email {
+text-align:right;
+}
+
+.jumbotron {
+    background: url('../image/assets/backgrounds/landing.jpg');
+    background-size: cover;
+    margin: 0%;
+    height: 10%;
+    padding-right: 0%;
+}
+
+.jumbotron8 {
+    background: url('/image/assets/backgrounds/landing.jpg');
+    background-size: cover;
+    margin: 0%;
+    height: 10%;
+    padding-right: 0%;
+}
+
+.jumbotron p {
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.col-md-3 {
+    padding: 0%;
+    margin: 0%;
+}
+
+.col-md-12 {
+    padding: 0%;
+    margin: 0%;
+}
+
+.second {
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.text {
+    padding-left: 0px;
+}
+
+.images {
+    border: 2px solid black;
+}
+
+.container2{
+    background-image: url('../image/assets/backgrounds/foodsBg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: center;
+}
+
+.foodtext {
+    text-align: center;
+}
+
+.inside {
+    padding: 300px;
+}
+
+.Customers{
+    padding: 250px;
+}
+
+.search {
+    padding:135px;
+}
+
+.subscribe {
+    text-align: center;
+}
+
+#social {
+    margin-left: 5px;
+}
+
+.row{
+    padding: 70px;
+}
+
+.footer{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+
+#image1{
+    background-image: url("../image/assets/fastFood1.jpg");
+    padding-top: 65px;
+    padding-bottom: 70px;
+    background-position: center;
+
+}
+
+#image2{
+    background-image: url("../image/assets/fastFood2.jpg");
+    padding-top: 70px;
+    padding-bottom: 65px;
+    background-position: center;
+}
+
+.button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 7px;
+    padding-left: 7px;
+    border: 1px solid  #F25A29;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+.container{
+    padding: 70px;
+}
+
+.arrow{
+    height:10px;
+    width: 15px;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
