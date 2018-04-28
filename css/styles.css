@@ -127,6 +127,8 @@ text-align:right;
 
 .search {
     padding:135px;
+    background-repeat: no-repeat;
+    height: 150px;
 }
 
 .subscribe {
