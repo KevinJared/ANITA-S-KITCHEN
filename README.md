@@ -1,13 +1,13 @@
-# PORTFOLIO LANDING PAGE
+# Anitas Kitchen
 ####
-20/04/2018
+29/04/2018
 #### By **KEVIN JARED**
 ## Description
-This is  WEBSITE that details and give more information about Kevin Jared i.e educational background,contacts, projects
+Anitas Kitchen
 ## Setup/Installation Requirements
 launch in web browsers e.g Chrome, Mozilla
 ## Technologies Used
-the website was created using HTML and CSS
+the website was created using HTML, CSS and jquery
 ## Support and contact details
 In case of any problems while running the website contact kevinjaredkip@gmail.com  
 ### License
