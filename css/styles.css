@@ -10,6 +10,17 @@ background-size: cover;
 -ms-background-size: cover;
 min-height:250px;
 }
+.col-md-3{
+  padding: 0px;
+}
+h4{
+  color: white;
+  font-size: 30px;
+}
+.secimg{
+  box-shadow: 10px 10px;
+  border: 5px;
+}
 .daily h3 {
 font-size: 2.4em;
 color: #fff;
@@ -137,12 +148,13 @@ text-align:right;
 }
 
 .container{
-    padding: 50px;
-    margin: 0px;
-    margin-right: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom:20px;
 }
-.main_section{
-  border-top: 1px;
+.col-md-6 p{
+  text-align:center;
 }
 .arrow{
     height:10px;
@@ -151,14 +163,13 @@ text-align:right;
 .HAPPY{
   background-color: white;
   font-size: 24px;
-  height: 85px;
+  height: 90px;
 }
 .PARTY{
   background-color: #f15a29;
   font-size: 24px;
-  height: 85px;
+  height: 90px;
 }
-
 .sidenav {
     height: 100%;
     width: 0;
