@@ -1,9 +1,6 @@
 .dinner img:hover{
     background-color: #ffffff;
 }
-.container-fluid{
-
-}
 .daily{
 background: url('../image/assets/backgrounds/subscribe.jpg;') no-repeat center fixed;
 background-size: cover;
@@ -23,7 +20,6 @@ text-align: center;
 .daily form input[type="text"] {
 padding: 0.5em 8em 0.5em 0em;
 margin-bottom: 2%;
-background: rgba(255, 255, 255, 0.2);
 color: #C8C8C8;
 font-size: 20px;
 font-family: 'aleolight';
@@ -67,44 +63,20 @@ text-align:right;
     height: 10%;
     padding-right: 0%;
 }
-
-.jumbotron8 {
-    background: url('/image/assets/backgrounds/landing.jpg');
-    background-size: cover;
-    margin: 0%;
-    height: 10%;
-    padding-right: 0%;
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
 }
-
 .jumbotron p {
     font-size: 50px;
     color: #ffffff;
 }
-
-.col-md-3 {
-    padding: 0%;
-    margin: 0%;
-}
-
-.col-md-12 {
-    padding: 0%;
-    margin: 0%;
-}
-
-.second {
-    padding: 50px;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
 .text {
     padding-left: 0px;
 }
-
-.images {
-    border: 2px solid black;
-}
-
 .container2{
     background-image: url('../image/assets/backgrounds/foodsBg.jpg');
     background-size: cover;
@@ -154,22 +126,6 @@ text-align:right;
     padding-bottom: 20px;
     color: #ffffff;
 }
-
-#image1{
-    background-image: url("../image/assets/fastFood1.jpg");
-    padding-top: 65px;
-    padding-bottom: 70px;
-    background-position: center;
-
-}
-
-#image2{
-    background-image: url("../image/assets/fastFood2.jpg");
-    padding-top: 70px;
-    padding-bottom: 65px;
-    background-position: center;
-}
-
 .button{
     padding-top: 5px;
     padding-bottom: 5px;
@@ -186,7 +142,7 @@ text-align:right;
     margin-right: 0px;
 }
 .main_section{
-  border-top: 1px solid:black;
+  border-top: 1px;
 }
 .arrow{
     height:10px;
