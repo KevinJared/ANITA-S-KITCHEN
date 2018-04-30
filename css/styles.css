@@ -2,8 +2,7 @@
     background-color: #ffffff;
 }
 .container-fluid{
-margin-left: 0px;
-margin-right: 0px;
+
 }
 .daily{
 background: url('../image/assets/backgrounds/subscribe.jpg;') no-repeat center fixed;
@@ -125,7 +124,9 @@ text-align:right;
 
 .Customers{
     padding: 70px;
-    margin-bottom:20;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 2px;
 }
 
 .search {
