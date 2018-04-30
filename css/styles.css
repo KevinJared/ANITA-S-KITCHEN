@@ -129,10 +129,10 @@ text-align:right;
 }
 
 .search {
-    padding:135px;
+    padding:50px;
     background-repeat: no-repeat;
     background-size: cover;
-    height: auto;
+    height: 250px;
 }
 
 .subscribe {
