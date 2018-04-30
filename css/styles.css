@@ -124,13 +124,15 @@ text-align:right;
 }
 
 .Customers{
-    padding: auto;
+    padding: 70px;
+    margin-bottom:20;
 }
 
 .search {
     padding:135px;
     background-repeat: no-repeat;
-    height: 150px;
+    background-size: cover;
+    height: auto;
 }
 
 .subscribe {
